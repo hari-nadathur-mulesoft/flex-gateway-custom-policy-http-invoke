@@ -1,0 +1,30 @@
+{
+  "title": "Flex Gateway Custom Policy HTTP Invoke",
+  "type": "object",
+  "description": "Flex Gateway Custom Policy HTTP Invoke",
+  "properties": {
+    "client-id": {
+      "title": "Client ID",
+      "type": "string",
+      "description": ""
+    },
+    "client-secret": {
+      "title": "Client Secret",
+      "type": "string",
+      "@context": {
+        "@characteristics": [
+          "security:sensitive"
+        ]
+      },
+      "description": ""
+    }
+  },
+  "required": [],
+  "unevaluatedProperties": true,
+  "@context": {
+    "@vocab": "anypoint://vocabulary/policy.yaml#",
+    "security": "anypoint://vocabulary/policy.yaml#"
+  },
+  "$id": "setQueryArg",
+  "$schema": "https://json-schema.org/draft/2019-09/schema"
+}

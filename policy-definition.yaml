@@ -1,0 +1,9 @@
+#%Policy Definition 0.1
+name: Flex Gateway Custom Policy HTTP Invoke
+description: Flex Gateway Custom Policy HTTP Invoke
+category: security
+providedCharacteristics: []
+requiredCharacteristics: []
+interfaceScope: ["api", "resource"]
+encryptionSupported: true
+interfaceTransformation: []

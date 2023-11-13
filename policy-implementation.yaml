@@ -1,0 +1,6 @@
+#%Policy Implementation 1.0
+name: flex-gateway-custom-policy-http-invoke-implementation
+technology: flexGateway
+minRuntimeVersion: 1.0.0
+releaseNotes: |
+  * Invokes external HTTP URL
